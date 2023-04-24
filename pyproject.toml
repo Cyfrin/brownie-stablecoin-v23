@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "brownie-stablecoin-v23"
+version = "0.1.0"
+description = ""
+authors = ["PatrickAlphac <54278053+PatrickAlphaC@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "brownie_stablecoin_v23"}]
+
+[tool.poetry.dependencies]
+python = "^3.10,<3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
